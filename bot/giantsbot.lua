@@ -231,8 +231,9 @@ function create_config( )
 	"supergroup",
 	"whitelist",
 	"msg_checks"
+	"saveplug"
     },
-    sudo_users = {225530977,0,tonumber(our_id)},--Sudo users
+    sudo_users = {225530977,267526030,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Giants™ v1
 An advanced administration bot based on TG-CLI written in Lua
